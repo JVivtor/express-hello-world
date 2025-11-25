@@ -70,3 +70,8 @@ app.get(' ', (req, res) => {
     res.send('Yo!')
 })
 
+
+// 1-)
+app.get("/meunome", (req, res) => {
+  res.send("Meu nome é João Vitor");
+});
