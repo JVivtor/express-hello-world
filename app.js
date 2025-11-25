@@ -65,3 +65,8 @@ const html = `
   </body>
 </html>
 `
+app.get(' ', (req, res) => {
+    console.log("Just got a request!")
+    res.send('Yo!')
+})
+
